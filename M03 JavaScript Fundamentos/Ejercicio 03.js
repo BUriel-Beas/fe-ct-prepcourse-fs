@@ -16,7 +16,7 @@ function tienenMismaLongitud(str1, str2) {
    // Retorna true si los dos strings tienen la misma longitud.
    // De lo contrario, retorna false.
    // Tu código:
-   if (str1 == "javascript", str2 == "bumfuzzled") {
+   if (str1.length === str2) {
       return true
   } else {
       return false
@@ -49,24 +49,22 @@ function esPar(num) {
    // Retorna true si "num" es par.
    // De lo contrario, retorna false.
    // Tu código:
-   if (num == 6) {
-      return (true);
-  } else if (num == 0) {
-      return (true);
-  } else {
-      return (false);
-  }
+   if (num % 2 ===0) {
+      return true
+   } else {
+      return false
+   }
 }
 
 function esImpar(num) {
    // Retorna true si "num" es impar.
    // De lo contrario, retorna false.
    // Tu código:
-   if (num == 7) {
-      return (true);
-  } else {
-      return (false);
-  }
+   if (num % 2 === 0) {
+      return false
+   } else {
+      return true
+   }
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
